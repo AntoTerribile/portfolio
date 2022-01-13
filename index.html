@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Antonio Terribile portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+
+      <!-- INIZIO BARRA DI NAVIGAZIONE -->
+      <nav class="container">
+        <div class"flex-container">
+            <ul id="nav-list" class="flex-container align-center column-m space-m">
+              <li> <a href="#Myworks"> MY WORKS</a></li>
+              <li><a href="#Myabout">ABOUT</a></li>
+              <li><a href="#Mycontactme">CONTACT ME</a></li>
+            </ul>
+          </div>
+      </nav>
+      <!-- FINE BARRA DI NAVIGAZIONE -->
+
+      <!-- INIZIO PARTE CENTRALE (FOTO E CHI SONO) -->
+      <section>
+        <div class="container flex-container align-center centralp column-m column-t">
+          <div class="img-container">
+            <img class="" src="./images/fotoprofilo.png" alt="Immagagine profilo di Antonio Terribile">
+          </div>
+          <div class="div-whoiam">
+            <h1 class="who-iam">
+              HI, I'M <span>Antonio Terribile</span> <br> <span class="profession">UX/UI Designer</span></h1>
+          </div>
+        </div>
+      </section>
+      <!-- FINE PARTE CENTRALE -->
+
+      <!-- INIZIO PARTE MY WORKS -->
+      <a name="Myworks"></a>
+    <section class="container">
+        <div class="display-content">
+          <h1>MY WORKS</h1>
+        </div>
+      <div class="flex-container project-list">
+        <div class="box-sizing">    <!-- Parte del box --> <!-- box1 -->
+          <div class="img-box"> <img src="./images/img-grf.jpg" alt="Copertina progetto grafica"> </div>
+          <div class="subtitle-box box-sizing align-center flex-container justify-content-bet">
+            <p>Progetto Grafica</p>
+            <a href="https://drive.google.com/file/d/172UWTMicjSba-SVkYkVlIBDo2_g3CG3o/view?usp=drivesdk" target="_blank" class="button" type="button" name="button">Consulta progetto</a>
+          </div>
+        </div>
+
+        <div class="box-sizing">    <!-- Parte del box --> <!-- box2 -->
+          <div class="img-box"> <img src="./images/img-wire.jpg" alt="Copertina progetto wireframe"></div>
+          <div class="subtitle-box box-sizing align-center flex-container justify-content-bet">
+            <p>Progetto Wireframe</p>
+            <a href="https://drive.google.com/file/d/1AhPgYmvfiYfDXBKfQNgQwkSWEWVpEhyG/view?usp=drivesdk" target="_blank" class="button" type="button" name="button">Consulta progetto</a>
+          </div>
+        </div>
+
+        <div class="box-sizing">    <!-- Parte del box --> <!-- box3 -->
+          <div class="img-box"><img src="./images/img-proto.jpg" alt="Copertina progetto prototype"></div>
+          <div class="subtitle-box box-sizing align-center flex-container justify-content-bet">
+            <p>Progetto User Interface</p>
+            <a href="https://drive.google.com/file/d/1-GrVUkfvl0XLhpqQRCIZEx-RAPw8SfjK/view?usp=drivesdk" target="_blank" class="button" type="button" name="button">Consulta progetto</a>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- FINE PARTE MY WORKS -->
+
+      <!-- INIZIO PARTE ABOUT ME -->
+      <a name="Myabout"></a>
+      <section class="about-me container">
+        <div>
+          <h1>ABOUT</h1>
+        </div>
+        <div class="flex-container justify-content-bet column-m column-d">
+          <p class="text-about-me">Ciao sono Antonio! <br> Sin da piccolo sono appassionato di tecnolgia e design,
+             dopo aver completato un ciclo di studi in turismo, ho deciso di dar valore
+             alle mie passioni e studiare Ux/Ui design. <br> Sono anche appassionato di
+             Sport e Fotografia  <br> Contattami per collaborazioni o informazioni! </p>
+             <img src="./images/hello.png" alt="Mano che saluta">
+        </div>
+      </section>
+      <!-- FINE PARTE ABOUT ME -->
+
+      <!-- INIZIO PARTE CONTATTAMI -->
+      <a name="Mycontactme"></a>
+      <section class="container contactme-box">
+        <h1 class="provadibox">CONTACT ME</h1>
+      <form>
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />
+  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+  <input type="submit" value="Contattami"/>
+</form>
+<div class="box-findme">
+  <p>Puoi trovarmi anche qui: </p>
+    <div class="icons">
+      <i class="fa-brands fa-instagram" style="font-size:50px"></i>
+      <i class="fab fa-facebook-square" style="font-size:50px"></i>
+      <i class="fab fa-linkedin" style="font-size:50px"></i>
+    </div>
+
+</div>
+
+</section>
+    <!-- FINE PARTE CONTATTAMI -->
+
+  </body>
+</html>

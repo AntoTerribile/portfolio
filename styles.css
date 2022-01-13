@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+
+}
+
+/*Button progetti*/
+.button {
+  padding: 8px;
+  background-color: #194da6;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #226ae6;
+}
+
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+  width: calc(100% - 48px);
+}
+
+.display-content {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.justify-content-bet {
+  justify-content: space-between;
+}
+
+#nav-list {
+  height: auto;
+  padding: 20px 0;
+  /*background-color: blue;*/  /*Colore per test*/
+  list-style-type: none;
+  justify-content: space-around;
+
+}
+
+
+#nav-list li {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#nav-list li:hover {
+  cursor: pointer;
+  border-bottom: 3px solid #194da6;
+}
+
+#nav-list li a {
+  text-decoration: none;
+}
+
+#nav-list li a:visited {
+  color: black;
+}
+
+
+
+.img-container {
+  padding-left: 100px;
+}
+
+.img-container img {
+  width: 300px;
+}
+
+.div-whoiam {
+  padding-right: 150px;
+}
+
+#title-profilo {
+  font-size: 30px;
+}
+
+.project-list {
+  margin-top: 30px;
+  padding: 20px 0;
+  flex-wrap: wrap;
+  grid-gap: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
+.who-iam {
+  font-size: 30px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.centralp {
+  height: 500px;
+  margin-bottom: 100px;
+  /*background-color: red;*/ /*Colore per test*/
+  justify-content: space-between;
+}
+
+
+
+/* Il mio nome nel content principale */
+.who-iam span {
+  font-size: 40px;
+}
+
+ .profession {
+   color: #194da6;
+ }
+
+ .box-sizing {
+   width:368px;
+ }
+
+ .img-box {
+   border-radius: 16px 16px 0 0;
+   border: 5px solid #e8e8e8;
+   width:368px;
+   height:207px;
+   text-align: center;
+ }
+
+ .img-box img{
+   width: 95%;
+   position: relative;
+
+ }
+
+ .subtitle-box {
+   padding: 10px 15px;
+   border-radius: 0 0 16px 16px;
+   height: auto;
+   background-color: #e8e8e8;
+ }
+
+ .about-me {
+   padding-top: 100px;
+ }
+
+ .text-about-me {
+   padding-top: 30px;
+    margin-left: 100px;
+   max-width: 400px;
+   font-size: 20px;
+   line-height: 1cm;
+ }
+
+
+ .about-me {
+   margin-top: 50px;
+ }
+
+ .about-me img {
+   width: 400px;
+   height: 400px;
+   margin-right: 100px;
+ }
+
+ .about-me div:first-child {
+   display: flex;
+   justify-content: center;
+ }
+
+ .about-me div:last-child {
+   margin-top: 40px;
+ }
+
+ .contactme-box {
+   margin-top: 150px;
+ }
+
+
+ .provadibox {
+  text-align: center;
+ }
+
+
+/* Form per il contatto*/
+ form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:black;
+  font-family: Montserrat, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #194da6;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:3px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#194da6;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#226ae6; }
+
+
+.box-findme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  margin: 0 10px;
+}
+
+.text-about-me {
+  margin-left: 40px;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+  .column-m {
+    flex-direction: column;
+  }
+
+  .img-container, .div-whoiam {
+    padding: 0;
+  }
+
+  .space-m {
+    gap:30px;
+  }
+
+}
+
+.text-about-me {
+ padding-top: 0;
+ margin-left: 0;
+}
+
+.about-me img {
+  width: 300px;
+  height: 300px;
+  margin-right: 0;
+}
+/* Fine Mobile */
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .column-t {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .div-whoiam, .img-container {
+    padding: 0;
+  }
+}
+/* Fine Tablet */
+
+
+/* Desktop */
+@media only screen and (min-width: 961px) {
+  .column-d {
+    align-items: center;
+  }
+  .text-about-me {
+    margin-left: 70px;
+  }
+
+  .about-me img {
+    margin-right: 60px;
+  }
+}
+/* Fine Desktop */
