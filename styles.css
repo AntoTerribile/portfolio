@@ -87,6 +87,10 @@ h1 {
   color: black;
 }
 
+#nav-list li a:link {
+  color: black;
+}
+
 
 
 .img-container {
